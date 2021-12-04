@@ -1,5 +1,5 @@
-from dashboard.content import app
+from dashboard import create_app
 
-server = app.server
+app = create_app()
 if __name__ == "__main__":
-    app.run_server(debug=True)
+    app.run(debug=True)

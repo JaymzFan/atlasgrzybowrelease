@@ -26,9 +26,3 @@ def create_users_table():
 
 
 create_users_table()
-
-# if False:
-#     import pandas as pd
-#     c = conn.cursor()
-#     df = pd.read_sql('select * from users', conn)
-#     df.values

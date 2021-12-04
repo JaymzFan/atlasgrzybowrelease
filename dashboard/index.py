@@ -5,7 +5,7 @@ from flask_sqlalchemy import SQLAlchemy
 import configparser
 
 from flask_login import LoginManager, UserMixin
-from dashboard.db.users_table_setup import Users, Users_tbl
+from db.users_table_setup import Users
 
 import dash_bootstrap_components as dbc
 
